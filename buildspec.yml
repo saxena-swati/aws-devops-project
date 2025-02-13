@@ -1,0 +1,11 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      python: latest
+  build:
+    commands:
+      - echo "Build step (if needed)"
+artifacts:
+  files:
+    - '**/*'
